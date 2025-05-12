@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+plt.scatter(y_test[:30], predictions[:30])
+plt.plot([0, 300], [0, 300], 'r--')
+plt.xlabel("실제값")
+plt.ylabel("예측값")
+plt.title("실제 vs 예측 비교")
