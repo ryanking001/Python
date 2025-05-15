@@ -1,0 +1,8 @@
+print("안녕하세요! MBTI 상담 챗봇이에요.")
+mbti = input("당신의 MBTI를 알려주세요: ").upper()
+if mbti == "INFP":
+    print("감성적인 당신! 창의적인 공부법을 추천드려요.")
+elif mbti == "ESTJ":
+    print("계획적인 당신! To-Do 리스트를 잘 활용해보세요.")
+else:
+    print("당신만의 특별한 매력이 있네요!")
