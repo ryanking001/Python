@@ -1,5 +1,10 @@
 text = input("오늘 기분 어때?")
+
 if "기뻐" in text:
     print("행복한 하루 되세요!")
 elif "속상" in text:
     print("무슨 일이 있었나요? 제가 들어드릴게요.")
+elif "짜증" in text:
+    print("심호흡하고 천천히 생각해봐요!")
+else:
+    print("그 기분을 더 말해줄래요?")
