@@ -1,0 +1,13 @@
+print("안녕하세요! 건강 라이프 스타일 챗봇이에요")
+print("당신의 고민을 알려주세요! (운동 / 식단 / 수면 / 스트레스)")
+user_input = input("▶ 무엇에 대해 알고 싶나요?: ").lower()  # 소문자로 처리
+if "운동" in user_input:
+    print("하루 30분 걷기부터 시작해보세요. 꾸준함이 중요해요!")
+elif "식단" in user_input:
+    print("야채와 단백질 위주의 균형 잡힌 식사를 추천드려요")
+elif "수면" in user_input:
+    print("매일 같은 시간에 자고 일어나는 것이 가장 중요해요")
+elif "스트레스" in user_input:
+    print("좋아하는 음악 듣기, 가벼운 산책도 도움이 돼요")
+else:
+    print("죄송해요, 그 주제는 아직 잘 모르겠어요")
